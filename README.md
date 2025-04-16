@@ -1,2 +1,13 @@
-# LimpiadorDeLineasInutiles
-Este script en Python se pasea por los archivos Markdown de una carpeta, borra las líneas vacías que no sirven pa’ nada, pero deja quietas las que están dentro de bloques de código (los que están entre "```"). La idea es que los archivos queden más livianos y fáciles de leer, sin tirarse el formato del código.
+# Limpiador de Líneas Inútiles (Uso personal)
+
+Este script te ayuda a limpiar esos archivos Markdown que a veces se llenan de líneas vacías innecesarias.
+
+
+Este script en Python tiene las siguientes funciones:
+
+*   **`main()`**: Función principal del script. Configura el analizador de argumentos y procesa el directorio especificado.
+*   **`process_directory(directory)`**: Procesa recursivamente el directorio especificado para eliminar líneas vacías de los archivos Markdown y TXT.
+    *   `directory` (str): El directorio a procesar.
+*   **`clean_empty_lines(content)`**: Elimina las líneas vacías de un texto, excepto dentro de los bloques de código.
+    *   `content` (str): El texto a limpiar.
+    *   Returns: El texto limpio.
