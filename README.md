@@ -11,3 +11,11 @@ Este script en Python tiene las siguientes funciones:
 *   **`clean_empty_lines(content)`**: Elimina las líneas vacías de un texto, excepto dentro de los bloques de código.
     *   `content` (str): El texto a limpiar.
     *   Returns: El texto limpio.
+
+## Ejemplo
+
+Para procesar el directorio `mi_proyecto`:
+
+```bash
+python limpiadordelineasinutiles.py mi_proyecto
+```
