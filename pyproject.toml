@@ -21,5 +21,5 @@ dependencies = []  # Lista de dependencias (si las hay)
 dev = ["pytest"] # Dependencias para desarrollo (ej: pytest)
 
 [project.urls]
-"Homepage" = "https://github.com/tu_usuario/limpiadordelineasinutiles"  # URL del repositorio (opcional)
-"Bug Tracker" = "https://github.com/tu_usuario/limpiadordelineasinutiles/issues" # URL del rastreador de errores (opcional)
+"Homepage" = "https://github.com/JuanJml01/LimpiadorDeLineasInutiles.git"  # URL del repositorio (opcional)
+"Bug Tracker" = "https://github.com/JuanJml01/LimpiadorDeLineasInutiles.git" # URL del rastreador de errores (opcional)
